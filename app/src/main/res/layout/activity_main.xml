@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    tools:context="ca.httpbrainvision.brainvision.MainActivity">
+
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src ="@drawable/ic_launcher"
+        android:id="@+id/main_image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="itemname"
+        android:id="@+id/main_item_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OriginalPrice"
+        android:id="@+id/main_item_OriginalPrice"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DiscountPrice"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/main_item_DiscountPrice"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage"
+        android:textSize="14sp"
+        android:textColor="@color/red"
+        android:id="@+id/main_item_Percentage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Units_and_quantity"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:id="@+id/main_item_Units_and_quantity"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ExpiryDate"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:id="@+id/main_item_ExpiryDate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CountOfViews"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:id="@+id/main_item_CountOfViews"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/main_item_Description"/>
+
+
+</LinearLayout>
