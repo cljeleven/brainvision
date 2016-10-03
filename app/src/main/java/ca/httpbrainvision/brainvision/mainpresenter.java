@@ -36,6 +36,7 @@ public class mainpresenter {
                     main_if.update_Percentage(data.getPercentage());
                     main_if.update_Units_and_quantity(data.getUnits(),data.getQuantity());
                     main_if.update_Description(data.getDescription());
+                    main_if.update_CountOfViews(data.getCountOfViews());
                     main_if.update_image(data.getImagePath()+data.getImageFileName());
                 }
             }
